@@ -8,20 +8,16 @@ namespace PropReportsAssistant
 
         private static string domain = "!CHANGE ME!";
         private ReportType reportType;
-        private static string groupId = "-4";
+        private string groupId = "-4";
         private string accountId;
         private static string range = "custom";
-
-        //Constructors
-        public Account(string domain, ReportType reportType, string accountId)
+        
+        public Account(string domain, ReportType reportType, string groupId, string accountId)
         {
             Account.domain = domain;
             this.reportType = reportType;
+            this.groupId = groupId;
             this.accountId = accountId;
-        }
-        public Account(string accountId) :
-            this(domain, ReportType.summaryByDate, accountId)
-        {
         }
 
         //Link building methods

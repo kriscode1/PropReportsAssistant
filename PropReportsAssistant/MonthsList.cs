@@ -6,7 +6,7 @@ namespace PropReportsAssistant
     public class MonthsList
     {
         //Keeps track of the months between startDate and endDate
-        //When using this class, access: Count, getMonth(n)
+        //When using this class, access: Count, GetMonth(n)
 
         private DateTime startDate;
         private DateTime endDate;
@@ -18,7 +18,7 @@ namespace PropReportsAssistant
             //Count of months, readonly
             get { return count; }
         }
-        public Month getMonth(int n)
+        public Month GetMonth(int n)
         {
             //Prevents users of MonthsList from modifying the list
             return months[n];

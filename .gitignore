@@ -1,3 +1,8 @@
 /.vs
 /PropReportsAssistant/obj
 /PropReportsAssistant/bin/Debug
+/PropReportsAssistant/bin/Release/PropReportsAssistant.exe.config
+/PropReportsAssistant/bin/Release/PropReportsAssistant.pdb
+/PropReportsAssistant/bin/Release/PropReportsAssistant.vshost.exe
+/PropReportsAssistant/bin/Release/PropReportsAssistant.vshost.exe.config
+/PropReportsAssistant/bin/Release/PropReportsAssistant.vshost.exe.manifest
